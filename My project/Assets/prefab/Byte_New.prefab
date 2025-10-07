@@ -348,6 +348,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 408890688114358134}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d1f8d4403c9744449a41694e31d9582e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2531575433148551203}
   m_SourcePrefab: {fileID: 100100000, guid: d1f8d4403c9744449a41694e31d9582e, type: 3}
 --- !u!4 &6165846053380097149 stripped
 Transform:
@@ -431,6 +435,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.07450855, y: 0.007498103, z: 0.005441603}
   m_Center: {x: -0.037754275, y: 0.0034104928, z: 0.0025440247}
+--- !u!114 &-2531575433148551203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6834965590835683015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f183421aa40b684bad2d3a9d4952ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: VR_World
+  transitionDelay: 0.5
+  fadeTransition: 1
+  fadeTime: 1
 --- !u!33 &7079280124553071576 stripped
 MeshFilter:
   m_CorrespondingSourceObject: {fileID: -5754084199372789682, guid: d1f8d4403c9744449a41694e31d9582e,
